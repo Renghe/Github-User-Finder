@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🗂️ Recent Repositories</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">🗂️ Recent Repositories</h1>
+    <button id="themeToggle" aria-label="Toggle Theme">🌙</button>
+
+    <div id="loader">🔄 Loading…</div>
+    <p id="errorMsg" class="hidden"></p>
+    <div id="repoGrid" class="grid hidden"></div>
+
+    <p style="margin-top: 40px;">
+      <a id="backLink">⬅️ Back to User Finder</a>
+    </p>
+  </div>
+
+  <script src="repos.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GitHub User Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐙 GitHub User Finder</h1>
+    <button id="themeToggle" aria-label="Toggle Theme">🌙</button>
+
+    <div class="input-section">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub Username" />
+      <button onclick="getUser()">Search</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+
+    <div id="loader" class="hidden">🔄 Loading...</div>
+    <p id="errorMsg" class="hidden"></p>
+
+    <div id="profileCard" class="hidden">
+      <img id="avatar" src="" alt="Avatar" />
+      <h2 id="name"></h2>
+      <p id="bio"></p>
+      <p id="repos"></p>
+      <a id="profileLink" target="_blank">🔗 View GitHub Profile</a><br />
+      <a id="starredPageLink" class="hidden">⭐ View Starred Repos</a><br />
+      <a id="reposPageLink" class="hidden">🗂️ View Recent Repos</a><br />
+      <br />
+      <button id="exportBtn">📄 Export Profile as PDF</button>
+    </div>
+  </div>
+
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
