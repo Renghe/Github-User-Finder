@@ -50,7 +50,7 @@ A responsive web app that lets you search for any GitHub user and view their pro
 
 **Tanvish Renghe**  
 🎓 B.Tech CSE - Data Science  
-🌐 [LinkedIn]([https://www.linkedin.com/in/tanvish-renghe/])  
+🌐 [LinkedIn](https://www.linkedin.com/in/tanvish-renghe/)  
 📧 renghetanvish@gmail.com
 
 ---
