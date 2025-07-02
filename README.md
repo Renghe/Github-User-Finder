@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/469fc90f-9705-489f-b3da-cdca5cba5557)# 🐙 GitHub User Finder
+# 🐙 GitHub User Finder
 
 A responsive web app that lets you search for any GitHub user and view their profile, recent repositories, and starred repositories. Includes dark mode, PDF export, and clean UI across devices.
 
